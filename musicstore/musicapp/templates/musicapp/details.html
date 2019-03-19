@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>{{ detail.recordtitle}}</h2>
+<table class='table'>
+    <tr>
+        <th>Record Title</th>
+        <th>Record Release Date</th>
+        <th>Artist</th>
+    </tr>
+    <tr>
+        <td>{{ detail.recordtitle}}</td>
+        <td>{{ detail.recordrelease}}</td>
+        <td>{{ detail.artist}}</td>
+    </tr>
+</table>
+
+
+{% endblock %} 
